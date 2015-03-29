@@ -1,0 +1,44 @@
+baseurl: "http://xkcd.club/"
+languageCode: "en-us"
+title: "xkcd.club"
+theme: "hugo-theme-delputnam"
+paginate: 25
+paginatePath: "page"
+copyright: "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International Licens
+e."
+MetaDataFormat: "yaml"
+CanonifyUrls: "true"
+
+author:
+    name: "Del Putnam"
+    email: "del@putnams.net"
+    twitter: "delputnam"
+    facebook: "delputnam"
+
+social:
+    facebook: "delputnam"
+    facebook_admin: "delputnam"
+    twitter: "delputnam"
+
+params:
+    description: "A podcast of romance, sarcasm, nath and language."
+    author: "Del Putnam"
+    google_analytics_id: "UA-45369150-4"
+
+taxonomies:
+    tag: "tags"
+    category: "categories"
+    series: "series"
+
+permalinks:
+    post: "/:year/:month/:day/:title/"
+    photo: "/:year/:month/:day/:title/"
+
+menu:
+    main:
+        - name: "Home"
+          pre: "<i class='fa fa-home'></i>"
+          weight: 1
+          identifier: "home"
+          url: "/"
+
