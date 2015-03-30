@@ -4,7 +4,6 @@ title: "xkcd.club"
 theme: "hugo-theme-delputnam"
 paginate: 25
 paginatePath: "page"
-copyright: "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 MetaDataFormat: "yaml"
 CanonifyURLs: "true"
 
