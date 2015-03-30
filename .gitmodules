@@ -1,0 +1,3 @@
+[submodule "themes/hugo-theme-delputnam"]
+	path = themes/hugo-theme-delputnam
+	url = https://github.com/delputnam/hugo-theme-delputnam
