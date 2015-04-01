@@ -21,7 +21,7 @@ social:
 params:
     description: "A podcast of romance, sarcasm, math and language."
     author: "Del Putnam"
-    google_analytics_id: "UA-45369150-4"
+    google_analytics_id: "UA-45369150-5"
 
 taxonomies:
     tag: "tags"
@@ -31,6 +31,7 @@ taxonomies:
 permalinks:
     post: "/:year/:month/:day/:title/"
     photo: "/:year/:month/:day/:title/"
+    podcast: "/:year/:month/:day/:title/"
 
 menu:
     main:
