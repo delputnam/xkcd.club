@@ -1,5 +1,6 @@
 baseurl: "http://xkcd.club/"
 languageCode: "en-us"
+copyright: "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 title: "xkcd.club"
 theme: "hugo-theme-delputnam"
 paginate: 25
@@ -22,6 +23,7 @@ params:
     description: "A podcast of romance, sarcasm, math and language."
     author: "Del Putnam"
     google_analytics_id: "UA-45369150-5"
+    logo: "/media/images/logo_large.png"
 
 taxonomies:
     tag: "tags"
@@ -31,7 +33,7 @@ taxonomies:
 permalinks:
     post: "/:year/:month/:day/:title/"
     photo: "/:year/:month/:day/:title/"
-    podcast: "/:year/:month/:day/:title/"
+    podcast: "/:slug/"
 
 menu:
     main:
