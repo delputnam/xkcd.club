@@ -42,4 +42,9 @@ menu:
           weight: 1
           identifier: "home"
           URL: "/"
+        - name: "Subscribe"
+          pre: "<i class='fa fa-rss'></i>"
+          weight: 2
+          identifier: "subscribe"
+          URL: "http://feeds.feedburner.com/xkcd"
 
