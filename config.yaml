@@ -1,4 +1,4 @@
-baseurl: "http://xkcd.club/"
+baseurl: "http://xkcd.dev/"
 languageCode: "en-us"
 copyright: "This work is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License."
 title: "xkcd.club"
@@ -33,9 +33,9 @@ taxonomies:
     series: "series"
 
 permalinks:
-    post: "/:year/:month/:day/:title/"
-    photo: "/:year/:month/:day/:title/"
-    podcast: "/:slug/"
+    post: "/:slug/"
+    photo: "/photo/:year/:month/:day/:title/"
+    podcast: "/podcast/:slug/"
 
 menu:
     main:
