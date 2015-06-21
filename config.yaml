@@ -48,5 +48,5 @@ menu:
           pre: "<i class='fa fa-rss'></i>"
           weight: 2
           identifier: "subscribe"
-          URL: "feed://feeds.feedburner.com/xkcdclub/"
+          URL: "feed://feeds.feedburner.com/xkcdclub/posts"
 
