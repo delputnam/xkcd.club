@@ -7,6 +7,7 @@ paginate: 25
 paginatePath: "page"
 MetaDataFormat: "yaml"
 CanonifyURLs: "true"
+disqusShortname: "xkcdclub"
 
 author:
     name: "Del Putnam"
